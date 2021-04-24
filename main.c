@@ -1,7 +1,7 @@
-#include "record_audio/record_audio.h"
+#include "audio_swr/audio_swr.h"
 
 int main(int argc, char *argv[])
 {
-    record_audio();
+    audio_swr();
     return 0;
 }

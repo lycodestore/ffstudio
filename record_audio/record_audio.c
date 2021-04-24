@@ -6,7 +6,7 @@
 // record audio from micro phone in linux system
 /**
  * use this common line to play the pcm file
- * ffplay -ar 44100 -ac 2 -f f32le audio.pcm
+ * ffplay -ar 44100 -ac 2 -f s16le audio.pcm
  */
 void record_audio() {
     av_log_set_level(AV_LOG_DEBUG);
