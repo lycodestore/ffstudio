@@ -1,7 +1,7 @@
-#include "audio_swr/audio_swr.h"
+#include "create_aac/create_aac.h"
 
 int main(int argc, char *argv[])
 {
-    audio_swr();
+    create_aac();
     return 0;
 }
