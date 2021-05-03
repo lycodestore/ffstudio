@@ -11,7 +11,8 @@ add_executable(ffstudio
         one/one.c
         record_audio/record_audio.c
         audio_swr/audio_swr.c
-        create_aac/create_aac.c)
+        create_aac/create_aac.c
+        video_record/video_record.c)
 
 target_link_libraries(
         ffstudio
