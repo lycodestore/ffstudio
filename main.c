@@ -1,7 +1,7 @@
-#include "video_record/video_record.h"
+#include "h264_encoder/h264_encoder.h"
 
 int main(int argc, char *argv[])
 {
-    record_video();
+    h264_encoder();
     return 0;
 }

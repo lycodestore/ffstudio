@@ -12,7 +12,8 @@ add_executable(ffstudio
         record_audio/record_audio.c
         audio_swr/audio_swr.c
         create_aac/create_aac.c
-        video_record/video_record.c)
+        video_record/video_record.c
+        h264_encoder/h264_encoder.c)
 
 target_link_libraries(
         ffstudio
